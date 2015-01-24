@@ -1,0 +1,8 @@
+x <- read.table("test/X_test.txt")
+y <- read.table("test/Y_test.txt")
+texy <- cbind(y,x)
+trx <- read.table("train/X_train.txt")
+try <- read.table("train/Y_train.txt")
+trxy <- cbind(try,trx)
+mxy<-rbind(texy,trxy)
+write.table(mxy,file="mergedata.txt",row.names=FALSE)
