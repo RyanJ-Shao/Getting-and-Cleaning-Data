@@ -1,1 +1,2 @@
-abc
+I use the read.table function to read the test data and train data, then i use cbind function to merge the two dataset. 
+But i don't know how to handle the other question because my english is poor, and i feel so sad.
